@@ -1,8 +1,9 @@
 Brooklyn Minor
 
-#Homework3 – Password Generator
+# Homework 3 - Password Generator
 
 The purpose of this project was to modify the files that were given to generate a random password.
+
 In previous weeks leading up to this assignment we learned various concepts. Webpages are further developed through the modifying of BootStrap and CSS elements, by implementing JavaScript we are able to make the webpage accessible through a variety of different functions. 
 Required characters are to be generated into the password, this occurs by creating arrays inside variables. Variables act as containers for storing data, in this case the data are the characters. These variables are added within the script.js file.  
 ```
