@@ -13,8 +13,20 @@ var specialCharacters =["!","%","^","&","*","(","~","+","=","-","?","_"];
 
 ```
 JavaScript is used to calculate and validate data and manipulate HTML and CSS content. If the HTML file is separate JavaScript file a link to that .js file is inserted through the script tag. For functions to be linked to the HTML’s content, ID’s and Class’s are inserted in to tags. In this case, generate and passwords are ID’s that link the function to HTML.
+```
+    <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate"  class="btn">Generate Password</button>
+        </div>
+```
 
-![Image of Password and Generate code in HTML]( C:\Users\Brooklyn Minor\OneDrive\Desktop\Bootcamp\Homework\Homework3\Homework3-Password-Generate.jpg)
 The function begins once the generate button is clicked. An event listener is attached to a button element for a click event to occur.     
 
 ```
